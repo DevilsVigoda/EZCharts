@@ -21,7 +21,9 @@ A lightweight and easy-to-use JavaScript charting library for creating line, bar
 ## 🧩 Installation
 
 Since this is a lightweight class-based solution, simply copy the `EZChartJS` class into your project or include it via a script tag in your HTML file.
-
+```html
+<script src = ""></scripn>
+```
 ---
 
 ## ✨ Usage Example
@@ -33,7 +35,7 @@ Since this is a lightweight class-based solution, simply copy the `EZChartJS` cl
 ```
 ### JS
 
-```JavaScript
+```javascript
 // Initialize and draw a chart
 const chart = new EZChartJS('chartContainer', {
   type: 'line',
@@ -54,7 +56,7 @@ chart.draw({
 
 ### Line Chart
 
-```JavaScript
+```javascript
 new EZChartJS('chartContainer', { type: 'line' }).draw({
   labels: ['Q1', 'Q2', 'Q3', 'Q4'],
   datasets: [
@@ -66,7 +68,7 @@ new EZChartJS('chartContainer', { type: 'line' }).draw({
 
 ### Bar Chart
 
-```JavaScript
+```javascript
 new EZChartJS('chartContainer', { type: 'bar' }).draw({
   labels: ['Apples', 'Oranges', 'Bananas'],
   datasets: [
@@ -77,7 +79,7 @@ new EZChartJS('chartContainer', { type: 'bar' }).draw({
 
 ### Pie Chart
 
-```JavaScript
+```javascript
 new EZChartJS('chartContainer', { type: 'pie' }).draw({
   labels: ['Red', 'Blue', 'Yellow'],
   datasets: [
@@ -109,3 +111,6 @@ new EZChartJS('chartContainer', { type: 'pie' }).draw({
 | `hideLegend` | `boolean` | `false` | Set `true` to **hide legend** |
 | `showValues` | `boolean` | `false` | Show values above bars (**bar charts only**) |
 | `compactLabels` | `boolean` | `false` | Use percentage-only labels (**pie charts only**) |
+
+
+![Alt text](chart1.jpg)
