@@ -86,3 +86,26 @@ new EZChartJS('chartContainer', { type: 'pie' }).draw({
 });
 ```
 
+# Class options
+
+| Option | Type | Default | Description |
+| --- | --- | --- | --- |
+| `type` | `string` | `'line'` | Chart type (`'line'`, `'bar'`, or `'pie'`) |
+| `title` | `string` | `''` | Chart title text |
+| `backgroundColor` | `string` | `'#ffffff'` | Background color of chart area |
+| `responsive` | `boolean` | `true` | Whether chart should **automatically resize** with container |
+| `width` | `number` | `600` | Fixed width (when `responsive=false`) |
+| `height` | `number` | `400` | Fixed height (when `responsive=false`) |
+| `axisColor` | `string` | `'#cccccc'` | Color of x/y axes |
+| `axisWidth` | `number` | `1` | Stroke width of axes |
+| `lineWidth` | `number` | `2` | Stroke width for **line charts** |
+| `pointRadius` | `number` | `4` | Radius of data points in line charts |
+| `labelFont` | `string` | `'12px Arial'` | Font for axis labels |
+| `labelColor` | `string` | `'#666666'` | Color for axis labels |
+| `titleFont` | `string` | `'bold 18px Arial'` | Font for chart title |
+| `titleColor` | `string` | `'#333333'` | Color for chart title |
+| `legendFont` | `string` | `'12px Arial'` | Font for legend text |
+| `legendColor` | `string` | `'#333333'` | Color for legend text |
+| `hideLegend` | `boolean` | `false` | Set `true` to **hide legend** |
+| `showValues` | `boolean` | `false` | Show values above bars (**bar charts only**) |
+| `compactLabels` | `boolean` | `false` | Use percentage-only labels (**pie charts only**) |
