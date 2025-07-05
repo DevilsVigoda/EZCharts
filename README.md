@@ -55,7 +55,7 @@ chart.draw({
 ```
 
 ### Line Chart
-
+![Alt text](chart1.jpg)
 ```javascript
 new EZChartJS('chartContainer', { type: 'line' }).draw({
   labels: ['Q1', 'Q2', 'Q3', 'Q4'],
@@ -67,7 +67,7 @@ new EZChartJS('chartContainer', { type: 'line' }).draw({
 ```
 
 ### Bar Chart
-
+![Alt text](chart2.jpg)
 ```javascript
 new EZChartJS('chartContainer', { type: 'bar' }).draw({
   labels: ['Apples', 'Oranges', 'Bananas'],
@@ -78,7 +78,7 @@ new EZChartJS('chartContainer', { type: 'bar' }).draw({
 ```
 
 ### Pie Chart
-
+![Alt text](chart3.jpg)
 ```javascript
 new EZChartJS('chartContainer', { type: 'pie' }).draw({
   labels: ['Red', 'Blue', 'Yellow'],
@@ -113,4 +113,4 @@ new EZChartJS('chartContainer', { type: 'pie' }).draw({
 | `compactLabels` | `boolean` | `false` | Use percentage-only labels (**pie charts only**) |
 
 
-![Alt text](chart1.jpg)
+
